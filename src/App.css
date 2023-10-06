@@ -1,0 +1,168 @@
+img.image-product{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.content {
+  width: 235px;
+  border: 1px solid rgb(185 28 28);
+  color: rgb(0, 0, 0);
+}
+.wrapper{
+  background-color: rgb(255, 255, 255) ;
+}
+
+.title-content{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.btn-xemthem{
+  text-align: center;
+}
+.btn{
+  font-weight: bold;
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  background-color: rgb(161, 177, 17);
+  display: flex;
+  justify-content: space-between;
+  min-width: 1200px;
+  max-height: 60px;
+  min-height: 60px;
+} 
+.logo{
+  height: 200px;
+  padding: 0;
+}
+.Navbar{
+  margin-left: 50px;
+  display: flex;
+}
+.list-nav-item{
+  display: flex;
+}
+.nav-item{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 9999px;
+  padding: 5px 8px;
+  color: rgb(0, 0, 0);
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 14px;
+  align-self: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.nav-item:hover {
+  color: rgb(185 28 28);
+
+}
+.icon-brand{
+  margin-right: 50px;
+  padding: 0px 16px;
+  align-self: center;
+}
+div.account{
+  display: block;
+  align-self: center;
+  padding: 5px 15px;
+}
+.icon-account svg{
+  color: rgb(0, 0, 0);
+  width: 30px;
+  height: 50%;
+}
+.account-status:hover{
+  color: rgba(255 191 0 0.9);
+}
+.cart-body{
+  align-self: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 9999px;
+}
+.clear-nav-fixed{
+  margin-top: 60px;
+}
+.slider{
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+ 
+}
+@keyframes slide {
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  60%{
+      transform: translateX(-100%);
+  }
+  65%{
+      transform: translateX(-200%);
+  }
+  95%{
+      transform: translateX(-200%);
+  }
+}
+.slider img{
+  flex: 1 0 100%;
+  object-fit: cover;
+  animation: slide 15s infinite;
+
+}
+
+.nav-slide{
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.content-test{
+  margin: 0px 300px;
+  justify-content: center;
+  max-width: 1300px;
+}
+.cart-content{
+  border: 1px solid black;
+}
+.hinhdaidien{
+  max-width: 100px;
+}
+.payment{
+  border:1px solid black;
+  align-self: center;
+}
+.text-pay{
+  float:right;
+}
+.rounded-t-5 {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .rounded-tr-lg-0 {
+    border-top-right-radius: 0;
+  }
+
+  .rounded-bl-lg-5 {
+    border-bottom-left-radius: 0.5rem;
+  }
+}
